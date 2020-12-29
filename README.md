@@ -11,9 +11,10 @@ classfication error continually rises on the generator. Thus I added R1 regulari
 The learning rate was 1e-4 (Adam) for both the generator and discriminator for the first 10 epochs, and then decayed/multiplied by 0.9 for the final 10 epochs. Also I used
 binary cross entropy for the adversarial loss instead of WGAN-GP.
 
-Results are decent, in my opinion. Hair color seems to be an easy translation, while gender and age tend to be more scattershot. One issue may have been that the
+Results are decent, but could be improved. Hair color seems to be an easy translation, while gender and age tend to be more scattershot. One issue may have been that the
 regularization parameter gamma was too high, i.e. hindered the discriminator too much such that the generator could get away with garbage. See results for example pictures
 and a text file with the score evolution throughout training.
 
 [1] Choi, Y., Choi, M., Kim, M., Ha, J., Kim, S., Choo, J. (2018) StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation
 [2] Zhu, Y., Park, T., Isola, P., Efros A.A. (2018) Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks
+[3] Roth, K., Lucchi, A., Nowozin, S., Hofmann, T. (2017) Stabilizing Training of Generative Adversarial Networks through Regularization
