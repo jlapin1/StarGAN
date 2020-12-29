@@ -16,3 +16,4 @@ regularization parameter gamma was too high, i.e. hindered the discriminator too
 and a text file with the score evolution throughout training.
 
 [1] Choi, Y., Choi, M., Kim, M., Ha, J., Kim, S., Choo, J. (2018) StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation
+[2] Zhu, Y., Park, T., Isola, P., Efros A.A. (2018) Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks
