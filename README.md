@@ -1,6 +1,6 @@
 # StarGAN
-This is an independent project I undertook, attempting to reproduce the results from [1] on the celebA dataset. Similar to my Season Transfer project, this type of image
-translation takes two domains that share the same content, but differ in style. Using the annotations of the celebA dataset, I seek to be able to translate photos of people
+This is an independent project in which I attempt to reproduce the results from [1] on the celebA dataset. Similar to my Season Transfer project, this type of image
+translation takes mutliple domains that share the same content, but differ in style. Using the annotations of the celebA dataset, I seek to be able to translate photos of people
 between/amongst 5 binary attributes: Black hair, Blonde hair, Brown hair, Male/Female, Young/Old. Indeed this type of mapping is much more complex than the two way mapping
 between summer and fall from season transfer. I am using a much bigger dataset, which also includes annotations for the identity of the subject of each photo.
 
